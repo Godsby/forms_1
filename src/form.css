@@ -1,0 +1,96 @@
+
+body {
+  display: flex; 
+  justify-content: center;
+  background-color: rgba(255, 165, 0, 0.2);
+}
+
+
+
+#beforeComplete {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px auto auto 20px;
+  padding-bottom: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+#header {
+  text-align: center;
+  margin: 0 0;
+  padding: 40px 30px 0px 30px;
+  background-color: orange;
+
+}
+
+#header:after {
+  border-bottom: 2px solid grey;
+  content: '';
+  display: block;
+  margin-left: 30%;
+  width: 40%;
+  padding-bottom: 15px;
+}
+
+form {
+  padding: 20px 30px 0px 30px;
+}
+
+#why {
+  height: 200px;
+  width: 500px;
+}
+
+.submit {
+  text-decoration: none;
+  height: 30px;
+  width: 80px;
+  align-self: center;
+  font-weight: bold;
+  padding: 8px 10px 5px 10px;
+  color: orange;
+  background: white;
+  border-bottom: 4px solid orange;
+  border-radius: 8px 8px 0 0;
+  transition: .5s;
+}
+
+.submit:hover {
+  background: orange;
+  color: white;
+  cursor: pointer;
+}
+
+
+#afterComplete {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20% 0px;
+}
+
+.confirm {
+  text-decoration: none;
+  height: 30px;
+  width: 80px;
+  align-self: center;
+  font-weight: bold;
+  padding: 8px 10px 5px 10px;
+  color: orange;
+  background: white;
+  border-bottom: 4px solid orange;
+  border-radius: 8px 8px 0 0;
+  transition: .5s;
+}
+
+.confirm:hover {
+  background: orange;
+  color: white;
+  cursor: pointer;
+}
+
+#afterSubmit {
+  font-size: 30px;
+  padding: 50% 0;
+}
